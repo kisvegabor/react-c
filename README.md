@@ -61,10 +61,6 @@ s.num = 3;
 rc_var_refr(id);
 ```
 
-### Work with or without dynamic memory allocation
-
-TODO
-
 ### Function(s) can subscribe to listen a variable change
 
 TODO
@@ -75,3 +71,9 @@ Only a `rc_handler()` needs to be called periodically in an:
 - task
 - main `while(1)`
 - a Timer intrrupt (on embedded systems)
+
+
+
+### Work with or without dynamic memory allocation
+
+TODO
