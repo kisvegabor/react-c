@@ -48,7 +48,7 @@ But there are some helpers
 ```c
 rc_var_set_int(id, -13);
 rc_var_set_uint(id, 39);
-rc_var_set_bool(id, true;
+rc_var_set_bool(id, true);
 rc_var_set_char(id, 'a');
 rc_var_set_str(id, "some text");
 rc_var_set_buf(id, buf);
