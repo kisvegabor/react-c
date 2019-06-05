@@ -68,3 +68,10 @@ TODO
 ### Function(s) can subscribe to listen a variable change
 
 TODO
+
+### Simple integration
+
+Only a `rc_handler()` needs to be called periodically in an:
+- task
+- main `while(1)`
+- a Timer intrrupt (on embedded systems)
