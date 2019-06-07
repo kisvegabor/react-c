@@ -20,11 +20,6 @@ int32_t * xp = rc_var_get(id);
 ```
 
 Types:
-- `RC_VAR_TYPE_POINTER`
-- `RC_VAR_TYPE_INT[8/16/32]`
-- `RC_VAR_TYPE_UINT[8/16/32]` 
-- `RC_VAR_TYPE_BUF[X]`
-
 ```c
 typedef enum
 {
