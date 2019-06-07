@@ -6,13 +6,14 @@
 
 > The `rc_` prefix stands for React C
 
-### Call function(s) when a variable's values has changed
+### Set/Get values of variables
 
 ```c
 uint32_t id = rc_var_create(RC_VAR_TYPE_INT + 32);
 
 int32_t x = 4;
 rc_var_set(id, &x);
+/*Or*/
 rc_var_set_int(id, x);
 
 int32_t * xp = rc_var_get(id);
